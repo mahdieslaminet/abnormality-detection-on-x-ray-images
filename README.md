@@ -38,6 +38,7 @@ Binary labels:
 Normal
 Abnormal
 Study-level labels based on expert radiologist annotations
+
 📌 Official Dataset Page:
 
 https://stanfordmlgroup.github.io/competitions/mura/
@@ -75,6 +76,7 @@ Class imbalance handled using weighted loss or sampling strategies
 Training is conducted using Jupyter Notebooks, enabling step-by-step experimentation and visualization.
 
 Results
+
 The trained model is evaluated using standard medical imaging metrics, including:
 
 Accuracy
@@ -85,6 +87,7 @@ ROC-AUC
 Results demonstrate the capability of deep learning models to learn meaningful representations from musculoskeletal X-ray images and distinguish abnormal cases with reasonable performance for a university-level project.
 
 Running the Project
+
 Using Jupyter Notebook (Local)
 Clone the repository:
 bash
@@ -110,6 +113,7 @@ Run the notebook cells as usual
 Using Colab allows access to free GPU acceleration, which significantly reduces training time.
 
 What I Added
+
 End-to-end implementation of an abnormality detection pipeline
 Preprocessing and dataset handling for MURA
 Training and evaluation workflow
@@ -136,6 +140,7 @@ Open-source implementations and tutorials related to medical image classificatio
 All external sources are used strictly for educational and research purposes.
 
 Disclaimer
+
 This project is developed solely for educational purposes as part of a university semester course.
 
 It is not intended for clinical or diagnostic use.
